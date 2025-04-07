@@ -1,0 +1,58 @@
+:root {
+    --green: #2d5a27;
+    --gold: #d4af37;
+}
+
+.brand-header {
+    background: var(--green);
+    color: white;
+    padding: 1rem 0;
+}
+
+.brand-logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.fa-cannabis {
+    color: var(--gold);
+    font-size: 2.5rem;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url('https://images.unsplash.com/photo-1600857544200-b2f666a6f230');
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.product-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    border: 2px solid var(--green);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.bitcoin-btn {
+    background: #f7931a;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.footer {
+    background: var(--green);
+    color: white;
+    padding: 3rem 0;
+    margin-top: 3rem;
+}
